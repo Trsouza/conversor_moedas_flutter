@@ -12,6 +12,7 @@ void main() async {
   runApp(MaterialApp(
     home: TelaPrincipal(),
     theme: ThemeData(hintColor: Colors.amber, primaryColor: Colors.white),
+    debugShowCheckedModeBanner: false,
   ));
 }
 //Função que vai converter a string vinda da API
